@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中台-活动模板-按钮配置</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<style>
+  body {
+    position: relative;
+  }
+  .motoui-footer {
+    width: 100%;
+    position: absolute;
+    top: 90vh;
+    left: 0;
+}
+  }
+</style>
+<body>
+  <div class="motoui-footer"></div>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js"></script>
+  <script src="./index.js"></script>
+  <script type='text/javascript'>
+    console.log(btnGroup);
+    var params = 9999
+    var options = {
+        buttons: [
+          {
+          link: '', // 点击按钮的跳转，如果不单纯是跳转使用下面onClick进行回调控制
+          label: '确定', // 按钮的文字
+          labelColor: '', // 按钮的颜色
+          btnBg: '', // 按钮的图片
+          btnBgColor: '#07c160', // 按钮背景颜色
+          clickCallback: function(params){ console.log('毛不易1');} // 按钮的回调函数
+          },
+          {
+          link: '', // 点击按钮的跳转，如果不单纯是跳转使用下面onClick进行回调控制
+          label: '取消', // 按钮的文字
+          labelColor: '', // 按钮的颜色
+          btnBg: '', // 按钮的图片
+          btnBgColor: '#07c160', // 按钮背景颜色
+          clickCallback: function(params){ console.log('毛不易2');} // 按钮的回调函数
+          },
+          {
+          link: '', // 点击按钮的跳转，如果不单纯是跳转使用下面onClick进行回调控制
+          label: '取消', // 按钮的文字
+          labelColor: '', // 按钮的颜色
+          btnBg: '', // 按钮的图片
+          btnBgColor: '#07c160', // 按钮背景颜色
+          clickCallback: function(params){ console.log('毛不易2');} // 按钮的回调函数
+          }           
+        ],
+      } 
+    btnGroup.show(options)
+  </script>
+</body>
+</html  
