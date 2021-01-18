@@ -22,7 +22,7 @@
           labelColor: 'red', // 按钮的颜色
           btnBg: '', // 按钮的图片
           btnBgColor: '#07c160', // 按钮背景颜色
-          onClick: function(){ location.href = ''} // 按钮的回调函数
+          clickCallback: function(){ location.href = ''} // 按钮的回调函数
           }
         ],
       }
